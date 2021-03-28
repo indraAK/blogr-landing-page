@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Add solution URL here](https://your-solution-url.com)
--  Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-  Solution URL: [Jump to solution](https://www.frontendmentor.io/solutions/responsive-blogr-landing-page-using-flexbox-and-css-grid-t5RNXDZB1)
+-  Live Site URL: [https://romantic-panini-e82ee9.netlify.app](https://romantic-panini-e82ee9.netlify.app/)
 
 ### Built with
 

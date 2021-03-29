@@ -192,13 +192,13 @@ header.show-bg {
 /* MOBILE MENU */
 .mobile-menu {
    position: fixed;
-   top: 9rem;
+   top: 7.5rem;
    left: 0;
    width: 100%;
    height: 100%;
    z-index: 998;
    transform: translateX(-100%);
-   transition: transform 0.3s cubic-bezier(0.37, 0.12, 0.66, 1.52);
+   transition: transform 0.3s ease;
 }
 
 .mobile-menu.open {
@@ -536,7 +536,8 @@ footer {
 
 .footer-menu .footer-links a {
    color: hsl(240, 2%, 79%);
-   font-size: 1.4rem;
+   font-size: 1.5rem;
+   font-weight: 400;
 }
 
 .footer-menu .footer-links a:hover {
@@ -556,8 +557,16 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+   header {
+      padding: 2rem 0;
+   }
+
    .container {
       width: 95vw;
+   }
+
+   .navbar .logo img {
+      width: 7rem;
    }
 
    .navbar :is(.nav-list, .cta) {
@@ -651,10 +660,6 @@ footer {
 
    .footer-menu .footer-links {
       margin-top: 1.5rem;
-   }
-
-   .navbar .logo img {
-      width: 7rem;
    }
 
    .toggle-menu {
